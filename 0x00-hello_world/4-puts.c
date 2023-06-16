@@ -1,4 +1,4 @@
-#include <sidio.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * description:A c programme that prints with put function
