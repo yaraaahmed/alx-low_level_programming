@@ -1,8 +1,9 @@
 #include <sidio.h>
 /**
- * main. print new line
- * Return : 0 sucsses
- */
+ * main - Entry point
+ * description:A c programme that prints with put function
+ * Return:always 0 (sucsses)
+*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
