@@ -21,7 +21,7 @@ int main(void)
 				putchat((seconDigit / 10) + 48);
 				putchar((seconDigit % 10) + 48);
 
-				if (firstDigit != 98 || seconDigit != 99)
+				if (firstDigit + seconDigit != 197)
 				{
 					putchar(',');
 					putchar(' ');
