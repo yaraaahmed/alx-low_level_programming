@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
- * main - entry point
- * Discription: prints the first 50 Fibonacci numbers
- * Return: always (0) sucsses
+/**
+ * main - Entry point
+ * description:program that prints the first 50 Fibonacci numbers
+ * Return:always 0 (sucsses)
 */
 
 int main(void)
