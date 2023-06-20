@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int sum, num;
+	int num, sum;
 
 	for (num = 0; num < 1024; num++)
 	{
