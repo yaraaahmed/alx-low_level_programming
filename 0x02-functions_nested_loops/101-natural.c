@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
- * main - prints counts of multiples
- *	of 3 or 5 below 1024
- *Discription:prints counts of multiples.
- * Return: always 0 (sucsses)
+/**
+ * main - Entry point
+ * description:program that computes and prints the sum of all the multiples
+ * Return:always 0 (sucsses)
 */
 
 int main(void)
