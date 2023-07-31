@@ -2,7 +2,7 @@
 /**
  * pop_listint - deletes the head node
  * @head: pointer to the first elements
- * Return: data elements that was deleted, or NULL if it is empty
+ * Return: data elements that was deleted, or 0 if it is empty
 */
 int pop_listint(listint_t **head)
 {
@@ -10,7 +10,7 @@ int pop_listint(listint_t **head)
 	int number;
 
 	if (!head || !*head)
-		return (NULL);
+		return (0);
 
 	number = (*head)->n;
 	tmp = (*head)->next;
